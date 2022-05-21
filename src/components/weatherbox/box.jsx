@@ -14,7 +14,7 @@ export default function Box(props){
             <img src={icon} alt=""/>
           </div>
           <div className="box-body-temp">
-            <h2>Min: {temp_min} , Max: {temp_max}</h2>
+            <span>Min: {temp_min} , Max: {temp_max}</span>
           </div>
         </div>
       </div>

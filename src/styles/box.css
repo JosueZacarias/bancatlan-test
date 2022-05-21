@@ -1,8 +1,27 @@
 .box{
   display: flex;
+  flex-direction: column;
+  border: 2px black solid;
 }
 
 .region-name{
   margin-left: 30px;
   margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.weather-response{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.box-body-temp{
+  font-size: 0.9rem;
+}
+
+.box-body{
+  justify-content: center;
+  align-items: center;
 }
