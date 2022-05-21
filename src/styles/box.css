@@ -1,0 +1,8 @@
+.box{
+  display: flex;
+}
+
+.region-name{
+  margin-left: 30px;
+  margin-top: 20px;
+}
